@@ -1,4 +1,25 @@
+# Ignore API key (never share it)
 openai_api_key.txt
+
+# Python virtualenv
 .venv/
+
+# Python cache
 __pycache__/
 *.pyc
+
+# Test/output folders (any folder created during runs)
+*/[[]*[]]/
+*/[eng]*/
+*/[it]*/
+*/[en]*/
+*/[es]*/
+*/[zh]*/
+*/[hi]*/
+*/[ar]*/
+
+# Or more generally: ignore all subfolders generated per input
+*/ */
+
+# Logs and misc
+*.log
