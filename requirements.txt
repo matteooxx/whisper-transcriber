@@ -1,2 +1,3 @@
 openai-whisper
 torch
+openai>=1.30.0
